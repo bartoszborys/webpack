@@ -1,4 +1,5 @@
 import './main.scss';
-const html: string = require('./partial.html');
+import { Example } from './example-component/example.component'
 
-document.querySelector('main').innerHTML = html;
+const root: HTMLElement = document.querySelector('main');
+new Example().bootstrap(root);

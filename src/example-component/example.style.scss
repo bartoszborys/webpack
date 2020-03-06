@@ -1,0 +1,6 @@
+.example-component {
+  background-color: red;
+  &__child {
+    background-color: yellow;
+  }
+}
