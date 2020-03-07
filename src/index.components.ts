@@ -1,4 +1,4 @@
-import { Example } from './example-component/example.component'
+import { Example } from './example/example.component'
 
 const components = [
     Example
