@@ -10,6 +10,7 @@
     "emitDecoratorMetadata": true,
     "types": [
       "node",
+      "reflect-metadata"
     ]
   }
 }
