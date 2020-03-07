@@ -1,6 +1,10 @@
 .example-component {
-  background-color: red;
+  display: flex;
+  flex-direction: column;
+  background-color: 123456;
+
   &__child {
-    background-color: yellow;
+    background-color: 654321;
+    margin: 1em;
   }
 }

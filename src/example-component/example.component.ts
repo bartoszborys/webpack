@@ -1,13 +1,8 @@
+import { Component } from "../../external/component/Component";
 import "./example.style.scss";
 
-export class Example {
-  private html: string;
-
-  public constructor() {
-    this.html = require('./example.template.html');
-  }
-
-  public bootstrap(root: HTMLElement): void {
-    root.innerHTML = this.html;
-  }
-}
+@Component({
+  tag: "example",
+  html: require("./example.template.html"),
+})
+export class Example { }
